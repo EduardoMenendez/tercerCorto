@@ -24,6 +24,10 @@ int evaluarNumero(int intento, int numeroPorAdivinar){
 int main(){
 
     srand (time(NULL));
+    /*
+      Definicion del numero, se ultiliza un numero aleatorio para que el juego pueda ser entretenido 
+      por mas de una partida 
+    */
     int numeroGanador = rand() % 100 + 1;
     bool gano = false;
 

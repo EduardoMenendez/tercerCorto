@@ -48,7 +48,7 @@ int main(){
     if(cantidad > 0){
 
         string mostrar;
-        
+
         for(size_t i = 0; i < cantidad; i++){
             //Variables para calcular los salarios
             int horasOrdinarias, horasExtra;
@@ -80,6 +80,7 @@ int main(){
             cin >> mostrar;
             if(mostrar == "Y" || mostrar == "y"){
                 cout << resultados;
+                system("PAUSE()");
             }
         }
     }else{
